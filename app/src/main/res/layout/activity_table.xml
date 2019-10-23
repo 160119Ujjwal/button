@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:textSize="50sp"
+            android:layout_span="2"
+            android:text="BILLS"
+            android:layout_gravity="center"/>
+
+    </TableRow>
+
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:textSize="40sp"
+            android:padding="10dp"
+            android:text="particular"/>
+
+        <TextView android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:textSize="40sp"
+            android:padding="10dp"
+            android:text="quantity"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:textSize="50sp"
+            android:text="p"/>
+
+        <EditText android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:textSize="50sp"
+            android:text="q"/>
+
+    </TableRow>
+
+    <TableRow android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:textSize="30sp"
+            style="@style/btn_style"
+            android:background="@drawable/btn_background"
+            android:gravity="center"
+            android:text="Submit"/>
+
+    </TableRow>
+
+
+</TableLayout>
+
